@@ -1,0 +1,149 @@
+/*Create Empty Overlay*/
+#img-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Overlay Color*/
+.overlay-black #img-container::after {
+  background-color: #000000;
+}
+.overlay-white #img-container::after {
+  background-color: #ffffff;
+}
+.overlay-brand-color-1 #img-container::after {
+  background-color: #eb312e;
+}
+.overlay-brand-color-2 #img-container::after {
+  background-color: #f48024;
+}
+.overlay-gradiant-1 #img-container::after {
+  background: linear-gradient(
+    0deg,
+    rgba(244, 128, 36, 1) 0%,
+    rgba(255, 190, 128, 1) 100%
+  );
+}
+.overlay-gradiant-mask #img-container::after {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
+}
+
+/*Overlay Opacity*/
+.overlay-opacity-5 #img-container::after {
+  opacity: 0.05;
+}
+
+.overlay-opacity-10 #img-container::after {
+  opacity: 0.1;
+}
+
+.overlay-opacity-15 #img-container::after {
+  opacity: 0.15;
+}
+
+.overlay-opacity-20 #img-container::after {
+  opacity: 0.2;
+}
+
+.overlay-opacity-25 #img-container::after {
+  opacity: 0.25;
+}
+
+.overlay-opacity-30 #img-container::after {
+  opacity: 0.3;
+}
+
+.overlay-opacity-35 #img-container::after {
+  opacity: 0.35;
+}
+
+.overlay-opacity-40 #img-container::after {
+  opacity: 0.4;
+}
+
+.overlay-opacity-45 #img-container::after {
+  opacity: 0.45;
+}
+
+.overlay-opacity-50 #img-container::after {
+  opacity: 0.5;
+}
+
+.overlay-opacity-55 #img-container::after {
+  opacity: 0.55;
+}
+
+.overlay-opacity-65 #img-container::after {
+  opacity: 0.65;
+}
+
+.overlay-opacity-70 #img-container::after {
+  opacity: 0.7;
+}
+
+.overlay-opacity-75 #img-container::after {
+  opacity: 0.75;
+}
+
+.overlay-opacity-80 #img-container::after {
+  opacity: 0.8;
+}
+
+.overlay-opacity-85 #img-container::after {
+  opacity: 0.85;
+}
+
+.overlay-opacity-90 #img-container::after {
+  opacity: 0.9;
+}
+
+.overlay-opacity-95 #img-container::after {
+  opacity: 0.95;
+}
+
+/*Blend Modes*/
+.overlay-blend-mode-maltiply #img-container::after {
+  mix-blend-mode: multiply;
+}
+.overlay-blend-mode-screen #img-container::after {
+  mix-blend-mode: screen;
+}
+.overlay-blend-mode-darken #img-container::after {
+  mix-blend-mode: darken;
+}
+.overlay-blend-mode-lighten #img-container::after {
+  mix-blend-mode: lighten;
+}
+.overlay-blend-mode-color-dodge #img-container::after {
+  mix-blend-mode: color-burn;
+}
+.overlay-blend-mode-hard-light #img-container::after {
+  mix-blend-mode: hard-light;
+}
+.overlay-blend-mode-soft-light #img-container::after {
+  mix-blend-mode: soft-light;
+}
+.overlay-blend-mode-difference #img-container::after {
+  mix-blend-mode: difference;
+}
+.overlay-blend-mode-exclusion #img-container::after {
+  mix-blend-mode: exclusion;
+}
+.overlay-blend-mode-hue #img-container::after {
+  mix-blend-mode: hue;
+}
+.overlay-blend-mode-saturation #img-container::after {
+  mix-blend-mode: saturation;
+}
+.overlay-blend-mode-color #img-container::after {
+  mix-blend-mode: color;
+}
+.overlay-blend-mode-luminosity #img-container::after {
+  mix-blend-mode: luminosity;
+}

@@ -1,0 +1,20 @@
+/*inner border*/
+.inner-border #top-content {
+  outline-style: solid;
+  outline-color: #ffffff;
+  outline-width: 1px;
+  outline-offset: -10px;
+}
+/*inner border color*/
+.border-black #top-content {
+  outline-color: #000000;
+}
+.border-white #top-content {
+  outline-color: #ffffff;
+}
+.border-brand-color-1 #top-content {
+  outline-color: #eb312e;
+}
+.border-brand-color-2 #top-content {
+  outline-color: #f48024;
+}

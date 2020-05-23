@@ -1,0 +1,347 @@
+/*img Focus Points Key Words*/
+.img-focus-left-top #bg-img {
+  object-position: left top;
+}
+
+.img-focus-left-center #bg-img {
+  object-position: left center;
+}
+
+.img-focus-left-bottom #bg-img {
+  object-position: left bottom;
+}
+
+.img-focus-right-top #bg-img {
+  object-position: right top;
+}
+
+.img-focus-right-center #bg-img {
+  object-position: right center;
+}
+
+.img-focus-right-bottom #bg-img {
+  object-position: right bottom;
+}
+
+.img-focus-center-top #bg-img {
+  object-position: center top;
+}
+
+.img-focus-center-center #bg-img {
+  object-position: center center;
+}
+
+.img-focus-center-bottom #bg-img {
+  object-position: center bottom;
+}
+/*img Focus Point Percentages*/
+/*10% - */
+.img-focus-10-10 #bg-img {
+  object-position: 10% 10%;
+}
+.img-focus-10-20 #bg-img {
+  object-position: 10% 20%;
+}
+.img-focus-10-30 #bg-img {
+  object-position: 10% 30%;
+}
+.img-focus-10-40 #bg-img {
+  object-position: 10% 40%;
+}
+.img-focus-10-50 #bg-img {
+  object-position: 10% 50%;
+}
+.img-focus-10-60 #bg-img {
+  object-position: 10% 60%;
+}
+.img-focus-10-70 #bg-img {
+  object-position: 10% 70%;
+}
+.img-focus-10-80 #bg-img {
+  object-position: 10% 80%;
+}
+.img-focus-10-90 #bg-img {
+  object-position: 10% 90%;
+}
+.img-focus-10-100 #bg-img {
+  object-position: 10% 100%;
+}
+/*20% - */
+.img-focus-20-10 #bg-img {
+  object-position: 20% 10%;
+}
+.img-focus-20-20 #bg-img {
+  object-position: 20% 20%;
+}
+.img-focus-20-30 #bg-img {
+  object-position: 20% 30%;
+}
+.img-focus-20-40 #bg-img {
+  object-position: 20% 40%;
+}
+.img-focus-20-50 #bg-img {
+  object-position: 20% 50%;
+}
+.img-focus-20-60 #bg-img {
+  object-position: 20% 60%;
+}
+.img-focus-20-70 #bg-img {
+  object-position: 20% 70%;
+}
+.img-focus-20-80 #bg-img {
+  object-position: 20% 80%;
+}
+.img-focus-20-90 #bg-img {
+  object-position: 20% 90%;
+}
+.img-focus-20-100 #bg-img {
+  object-position: 20% 100%;
+}
+/*30% - */
+.img-focus-30-10 #bg-img {
+  object-position: 30% 10%;
+}
+.img-focus-30-20 #bg-img {
+  object-position: 30% 20%;
+}
+.img-focus-30-30 #bg-img {
+  object-position: 30% 30%;
+}
+.img-focus-30-40 #bg-img {
+  object-position: 30% 40%;
+}
+.img-focus-30-50 #bg-img {
+  object-position: 30% 50%;
+}
+.img-focus-30-60 #bg-img {
+  object-position: 30% 60%;
+}
+.img-focus-30-70 #bg-img {
+  object-position: 30% 70%;
+}
+.img-focus-30-80 #bg-img {
+  object-position: 30% 80%;
+}
+.img-focus-30-90 #bg-img {
+  object-position: 30% 90%;
+}
+.img-focus-30-100 #bg-img {
+  object-position: 30% 100%;
+}
+/*40% - */
+.img-focus-40-10 #bg-img {
+  object-position: 30% 10%;
+}
+.img-focus-40-20 #bg-img {
+  object-position: 40% 20%;
+}
+.img-focus-40-30 #bg-img {
+  object-position: 40% 30%;
+}
+.img-focus-40-40 #bg-img {
+  object-position: 40% 40%;
+}
+.img-focus-40-50 #bg-img {
+  object-position: 40% 50%;
+}
+.img-focus-40-60 #bg-img {
+  object-position: 40% 60%;
+}
+.img-focus-40-70 #bg-img {
+  object-position: 40% 70%;
+}
+.img-focus-40-80 #bg-img {
+  object-position: 40% 80%;
+}
+.img-focus-40-90 #bg-img {
+  object-position: 40% 90%;
+}
+.img-focus-40-100 #bg-img {
+  object-position: 40% 100%;
+}
+/*50% - */
+.img-focus-50-10 #bg-img {
+  object-position: 50% 10%;
+}
+.img-focus-50-20 #bg-img {
+  object-position: 50% 20%;
+}
+.img-focus-50-30 #bg-img {
+  object-position: 50% 30%;
+}
+.img-focus-50-40 #bg-img {
+  object-position: 50% 40%;
+}
+.img-focus-50-50 #bg-img {
+  object-position: 50% 50%;
+}
+.img-focus-50-60 #bg-img {
+  object-position: 50% 60%;
+}
+.img-focus-50-70 #bg-img {
+  object-position: 50% 70%;
+}
+.img-focus-50-80 #bg-img {
+  object-position: 50% 80%;
+}
+.img-focus-50-90 #bg-img {
+  object-position: 50% 90%;
+}
+.img-focus-50-100 #bg-img {
+  object-position: 50% 100%;
+}
+/*60% - */
+.img-focus-60-10 #bg-img {
+  object-position: 60% 10%;
+}
+.img-focus-60-20 #bg-img {
+  object-position: 60% 20%;
+}
+.img-focus-60-30 #bg-img {
+  object-position: 60% 30%;
+}
+.img-focus-60-40 #bg-img {
+  object-position: 60% 40%;
+}
+.img-focus-60-50 #bg-img {
+  object-position: 60% 50%;
+}
+.img-focus-60-60 #bg-img {
+  object-position: 60% 60%;
+}
+.img-focus-60-70 #bg-img {
+  object-position: 60% 70%;
+}
+.img-focus-60-80 #bg-img {
+  object-position: 60% 80%;
+}
+.img-focus-60-90 #bg-img {
+  object-position: 60% 90%;
+}
+.img-focus-60-100 #bg-img {
+  object-position: 60% 100%;
+}
+/*70% - */
+.img-focus-70-10 #bg-img {
+  object-position: 70% 10%;
+}
+.img-focus-70-20 #bg-img {
+  object-position: 70% 20%;
+}
+.img-focus-70-30 #bg-img {
+  object-position: 70% 30%;
+}
+.img-focus-70-40 #bg-img {
+  object-position: 70% 40%;
+}
+.img-focus-70-50 #bg-img {
+  object-position: 70% 50%;
+}
+.img-focus-70-60 #bg-img {
+  object-position: 70% 60%;
+}
+.img-focus-70-70 #bg-img {
+  object-position: 70% 70%;
+}
+.img-focus-70-80 #bg-img {
+  object-position: 70% 80%;
+}
+.img-focus-70-90 #bg-img {
+  object-position: 70% 90%;
+}
+.img-focus-70-100 #bg-img {
+  object-position: 70% 100%;
+}
+/*80% - */
+.img-focus-80-10 #bg-img {
+  object-position: 80% 10%;
+}
+.img-focus-80-20 #bg-img {
+  object-position: 80% 20%;
+}
+.img-focus-80-30 #bg-img {
+  object-position: 80% 30%;
+}
+.img-focus-80-40 #bg-img {
+  object-position: 80% 40%;
+}
+.img-focus-80-50 #bg-img {
+  object-position: 80% 50%;
+}
+.img-focus-80-60 #bg-img {
+  object-position: 80% 60%;
+}
+.img-focus-80-70 #bg-img {
+  object-position: 80% 70%;
+}
+.img-focus-80-80 #bg-img {
+  object-position: 80% 80%;
+}
+.img-focus-80-90 #bg-img {
+  object-position: 80% 90%;
+}
+.img-focus-80-100 #bg-img {
+  object-position: 80% 100%;
+}
+/*90% - */
+.img-focus-90-10 #bg-img {
+  object-position: 90% 10%;
+}
+.img-focus-90-20 #bg-img {
+  object-position: 90% 20%;
+}
+.img-focus-90-30 #bg-img {
+  object-position: 90% 30%;
+}
+.img-focus-90-40 #bg-img {
+  object-position: 90% 40%;
+}
+.img-focus-90-50 #bg-img {
+  object-position: 90% 50%;
+}
+.img-focus-90-60 #bg-img {
+  object-position: 90% 60%;
+}
+.img-focus-90-70 #bg-img {
+  object-position: 90% 70%;
+}
+.img-focus-90-80 #bg-img {
+  object-position: 90% 80%;
+}
+.img-focus-90-90 #bg-img {
+  object-position: 90% 90%;
+}
+.img-focus-90-100 #bg-img {
+  object-position: 90% 100%;
+}
+/*100% - */
+.img-focus-100-10 #bg-img {
+  object-position: 100% 10%;
+}
+.img-focus-100-20 #bg-img {
+  object-position: 100% 20%;
+}
+.img-focus-100-30 #bg-img {
+  object-position: 100% 30%;
+}
+.img-focus-100-40 #bg-img {
+  object-position: 100% 40%;
+}
+.img-focus-100-50 #bg-img {
+  object-position: 100% 50%;
+}
+.img-focus-100-60 #bg-img {
+  object-position: 100% 60%;
+}
+.img-focus-100-70 #bg-img {
+  object-position: 100% 70%;
+}
+.img-focus-100-80 #bg-img {
+  object-position: 100% 80%;
+}
+.img-focus-100-90 #bg-img {
+  object-position: 100% 90%;
+}
+.img-focus-100-100 #bg-img {
+  object-position: 100% 100%;
+}

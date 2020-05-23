@@ -1,0 +1,175 @@
+#bg-img {
+  --blur: 0px;
+  --contrast: 100%;
+  --brightness: 100%;
+  --dropshadow: 0px 0px 0px black;
+  --grayscale: 0%;
+  --hue-rotate: 0deg;
+  --invert: 0%;
+  --opacity: 100%;
+  --saturate: 100%;
+  --sepia: 0%;
+}
+/*Apply Defult Variables*/
+#bg-img {
+  filter: blur(var(--blur)) contrast(var(--contrast))
+    brightness(var(--brightness)) drop-shadow(var(--dropshadow))
+    grayscale(var(--grayscale)) hue-rotate(var(--hue-rotate))
+    invert(var(--invert)) opacity(var(--opacity)) saturate(var(--saturate))
+    sepia(var(--sepia));
+}
+
+/*Blur img*/
+.blur-5 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-10 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-15 #bg-img {
+  --blur: 15px;
+  transform: scale(1.1);
+}
+.blur-20 #bg-img {
+  --blur: 20px;
+  transform: scale(1.1);
+}
+.blur-25 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-30 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-35 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-40 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-45 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-50 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+
+/*contrast*/
+.contrast-100 {
+  --contrast: 100%;
+}
+.contrast-90 {
+  --contrast: 90%;
+}
+.contrast-80 {
+  --contrast: 80%;
+}
+.contrast-70 {
+  --contrast: 70%;
+}
+.contrast-60 {
+  --contrast: 60%;
+}
+.contrast-50 {
+  --contrast: 50%;
+}
+.contrast-40 {
+  --contrast: 40%;
+}
+.contrast-30 {
+  --contrast: 30%;
+}
+.contrast-20 {
+  --contrast: 20%;
+}
+.contrast-10 {
+  --contrast: 10%;
+}
+.contrast-0 {
+  --contrast: 0%;
+}
+
+/*Brightness of img*/
+.brightness-0 #bg-img {
+  --brightness: 0%;
+}
+.brightness-10 #bg-img {
+  --brightness: 10%;
+}
+.brightness-20 #bg-img {
+  --brightness: 20%;
+}
+.brightness-30 #bg-img {
+  --brightness: 30%;
+}
+.brightness-40 #bg-img {
+  --brightness: 40%;
+}
+.brightness-50 #bg-img {
+  --brightness: 50%;
+}
+.brightness-60 #bg-img {
+  --brightness: 60%;
+}
+.brightness-70 #bg-img {
+  --brightness: 70%;
+}
+.brightness-80 #bg-img {
+  --brightness: 80%;
+}
+.brightness-90 #bg-img {
+  --brightness: 90%;
+}
+.brightness-100 #bg-img {
+  --brightness: 100%;
+}
+
+/*GrayScale img*/
+.grayscale-10 #bg-img {
+  --grayscale: 5%;
+}
+.grayscale-20 #bg-img {
+  --grayscale: 20%;
+}
+.grayscale-30 #bg-img {
+  --grayscale: 30%;
+}
+.grayscale-40 #bg-img {
+  --grayscale: 40%;
+}
+.grayscale-50 #bg-img {
+  --grayscale: 50%;
+}
+.grayscale-60 #bg-img {
+  --grayscale: 60%;
+}
+.grayscale-70 #bg-img {
+  --grayscale: 70%;
+}
+.grayscale-80 #bg-img {
+  --grayscale: 80%;
+}
+.grayscale-90 #bg-img {
+  --grayscale: 90%;
+}
+.grayscale-100 #bg-img {
+  --grayscale: 100%;
+}
+
+/*Drop Shadow*/
+.drop-shadow-color-black {
+
+}
+.drop-shadow-color-white {
+    
+}
+.drop-shadow-brand-color {
+    #eb312e;
+}

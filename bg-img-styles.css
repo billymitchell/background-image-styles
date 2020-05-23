@@ -1,0 +1,373 @@
+/*Initalize Variables No Adjustments*/
+:root {
+  --blur: 0px;
+  --contrast: 100%;
+  --brightness: 100%;
+  --contrast: 100%;
+  --dropshadow: 0px 0px 0px black;
+  --grayscale: 0%;
+  --hue-rotate: 0deg;
+  --invert: 0%;
+  --opacity: 100%;
+  --saturate: 100%;
+  --sepia: 0%;
+}
+/*Apply Defult Variables*/
+#bg-img {
+  filter: blur(var(--blur)) contrast(var(--contrast))
+    brightness(var(--brightness)) contrast(var(--contrast))
+    drop-shadow(var(--dropshadow)) grayscale(var(--grayscale))
+    hue-rotate(var(--hue-rotate)) invert(var(--invert)) opacity(var(--opacity))
+    saturate(var(--saturate)) sepia(var(--sepia));
+}
+
+#bg-container {
+  position: relative;
+  display: block;
+  /*Match Height*/
+  width: 100%;
+  height: 315px;
+  overflow: hidden;
+}
+#image-container {
+  position: absolute;
+  /*Match Height*/
+  width: 100%;
+  height: 315px;
+}
+#bg-img {
+  position: absolute;
+  background-size: cover;
+  /*Match Height*/
+  width: 100%;
+  height: 315px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+#bg-top-content {
+  position: absolute;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  /*Match Height*/
+  height: 315px;
+  width: 100%;
+}
+/*Image Focus Point*/
+.image-focus-left-top #bg-img {
+  background-position: left top;
+  object-position: left top;
+}
+
+.image-focus-left-center #bg-img {
+  background-position: left center;
+  object-position: left center;
+}
+
+.image-focus-left-bottom #bg-img {
+  background-position: left bottom;
+  object-position: left bottom;
+}
+
+.image-focus-right-top #bg-img {
+  background-position: right top;
+  object-position: right top;
+}
+
+.image-focus-right-center #bg-img {
+  background-position: right center;
+  object-position: right center;
+}
+
+.image-focus-right-bottom #bg-img {
+  background-position: right bottom;
+  object-position: right bottom;
+}
+
+.image-focus-center-top #bg-img {
+  background-position: center top;
+  object-position: center top;
+}
+
+.image-focus-center-center #bg-img {
+  background-position: center center;
+  object-position: center center;
+}
+
+.image-focus-center-bottom #bg-img {
+  background-position: center bottom;
+  object-position: center bottom;
+}
+
+/*Create Overlay*/
+#img-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+/*Image Border*/
+.inner-border #bg-top-content {
+  outline-style: solid;
+  outline-color: #ffffff;
+  outline-width: 1px;
+  outline-offset: -10px;
+}
+.border-black #bg-top-content {
+  outline-color: #000000;
+}
+.border-white #bg-top-content {
+  outline-color: #ffffff;
+}
+.border-brand-color-1 #bg-top-content {
+  outline-color: #eb312e;
+}
+.border-brand-color-2 #bg-top-content {
+  outline-color: #f48024;
+}
+/*Overlay Color*/
+.overlay-black #img-container::after {
+  background-color: #000000;
+}
+.overlay-white #img-container::after {
+  background-color: #ffffff;
+}
+.overlay-brand-color-1 #img-container::after {
+  background-color: #eb312e;
+}
+.overlay-brand-color-2 #img-container::after {
+  background-color: #f48024;
+}
+.overlay-gradiant-1 #img-container::after {
+  background: linear-gradient(
+    0deg,
+    rgba(244, 128, 36, 1) 0%,
+    rgba(255, 190, 128, 1) 100%
+  );
+}
+.overlay-gradiant-mask #img-container::after {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
+}
+/*Defult Top Content Text Color*/
+#bg-top-content {
+  color: #ffffff;
+}
+/*if screen overlay is black make top text white*/
+.overlay-black #bg-top-content {
+  color: #ffffff;
+}
+/*if screen overlay is white make top text black*/
+.overlay-white #bg-top-content {
+  color: #000000;
+}
+
+/*Overlay Opacity*/
+.overlay-opacity-5 #img-container::after {
+  opacity: 0.05;
+}
+
+.overlay-opacity-10 #img-container::after {
+  opacity: 0.1;
+}
+
+.overlay-opacity-15 #img-container::after {
+  opacity: 0.15;
+}
+
+.overlay-opacity-20 #img-container::after {
+  opacity: 0.2;
+}
+
+.overlay-opacity-25 #img-container::after {
+  opacity: 0.25;
+}
+
+.overlay-opacity-30 #img-container::after {
+  opacity: 0.3;
+}
+
+.overlay-opacity-35 #img-container::after {
+  opacity: 0.35;
+}
+
+.overlay-opacity-40 #img-container::after {
+  opacity: 0.4;
+}
+
+.overlay-opacity-45 #img-container::after {
+  opacity: 0.45;
+}
+
+.overlay-opacity-50 #img-container::after {
+  opacity: 0.5;
+}
+
+.overlay-opacity-55 #img-container::after {
+  opacity: 0.55;
+}
+
+.overlay-opacity-65 #img-container::after {
+  opacity: 0.65;
+}
+
+.overlay-opacity-70 #img-container::after {
+  opacity: 0.7;
+}
+
+.overlay-opacity-75 #img-container::after {
+  opacity: 0.75;
+}
+
+.overlay-opacity-80 #img-container::after {
+  opacity: 0.8;
+}
+
+.overlay-opacity-85 #img-container::after {
+  opacity: 0.85;
+}
+
+.overlay-opacity-90 #img-container::after {
+  opacity: 0.9;
+}
+
+.overlay-opacity-95 #img-container::after {
+  opacity: 0.95;
+}
+/*GrayScale Image*/
+.grayscale-10 #bg-img {
+  --grayscale: 5%;
+}
+.grayscale-20 #bg-img {
+  --grayscale: 20%;
+}
+.grayscale-30 #bg-img {
+  --grayscale: 30%;
+}
+.grayscale-40 #bg-img {
+  --grayscale: 40%;
+}
+.grayscale-50 #bg-img {
+  --grayscale: 50%;
+}
+.grayscale-60 #bg-img {
+  --grayscale: 60%;
+}
+.grayscale-70 #bg-img {
+  --grayscale: 70%;
+}
+.grayscale-80 #bg-img {
+  --grayscale: 80%;
+}
+.grayscale-90 #bg-img {
+  --grayscale: 90%;
+}
+.grayscale-100 #bg-img {
+  --grayscale: 100%;
+}
+
+/*Blend Modes*/
+.overlay-blend-mode-maltiply #img-container::after {
+  mix-blend-mode: multiply;
+}
+.overlay-blend-mode-screen #img-container::after {
+  mix-blend-mode: screen;
+}
+.overlay-blend-mode-darken #img-container::after {
+  mix-blend-mode: darken;
+}
+.overlay-blend-mode-lighten #img-container::after {
+  mix-blend-mode: lighten;
+}
+.overlay-blend-mode-color-dodge #img-container::after {
+  mix-blend-mode: color-burn;
+}
+.overlay-blend-mode-hard-light #img-container::after {
+  mix-blend-mode: hard-light;
+}
+.overlay-blend-mode-soft-light #img-container::after {
+  mix-blend-mode: soft-light;
+}
+.overlay-blend-mode-difference #img-container::after {
+  mix-blend-mode: difference;
+}
+.overlay-blend-mode-exclusion #img-container::after {
+  mix-blend-mode: exclusion;
+}
+.overlay-blend-mode-hue #img-container::after {
+  mix-blend-mode: hue;
+}
+.overlay-blend-mode-saturation #img-container::after {
+  mix-blend-mode: saturation;
+}
+.overlay-blend-mode-color #img-container::after {
+  mix-blend-mode: color;
+}
+.overlay-blend-mode-luminosity #img-container::after {
+  mix-blend-mode: luminosity;
+}
+
+/*Brightness of Image*/
+.brightness-50 #bg-img {
+  --brightness: 50%;
+}
+.brightness-60 #bg-img {
+  --brightness: 60%;
+}
+.brightness-70 #bg-img {
+  --brightness: 70%;
+}
+.brightness-80 #bg-img {
+  --brightness: 80%;
+}
+.brightness-90 #bg-img {
+  --brightness: 90%;
+}
+
+/*Blur Image*/
+.blur-5 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-10 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-15 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-20 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-25 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-30 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-35 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-40 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-45 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}
+.blur-50 #bg-img {
+  --blur: 05px;
+  transform: scale(1.1);
+}

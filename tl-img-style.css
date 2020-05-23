@@ -1,0 +1,54 @@
+/*Initalize Variables No Adjustments*/
+:root {
+  --banner-height: 100vh;
+}
+
+/*Positioning*/
+#bg-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: var(--banner-height);
+  overflow: hidden;
+}
+
+#img-container {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: var(--banner-height);
+}
+
+#bg-img {
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: var(--banner-height);
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#top-content {
+  position: absolute;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: var(--banner-height);
+  width: 100%;
+}
+
+/*Defult Top Content Text Color*/
+#top-content {
+  color: #ffffff;
+}
+/*if screen overlay is black make top text white*/
+.overlay-black #top-content {
+  color: #ffffff;
+}
+/*if screen overlay is white make top text black*/
+.overlay-white #top-content {
+  color: #000000;
+}
